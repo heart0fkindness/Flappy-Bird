@@ -2,28 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <meta name="description" content="A simple Flappy Bird clone built with HTML5 Canvas and JavaScript.">
+  <meta charset="UTF-8">
+  <title>Flappy Bird DOM Edition</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <canvas id="game" width="400" height="600" aria-label="Flappy Bird game canvas" role="img"></canvas>
-        <div class="hud">
-            <div id="score" aria-live="polite" aria-atomic="true">0</div>
-            <button id="restart" class="hidden" aria-label="Restart game">Restart</button>
-        </div>
-        <footer>
-            <p>Controls: Space / Click / Tap to flap</p>
-        </footer>
+  <div id="gameContainer">
+    <div id="sky"></div>
+    <div id="pipes"></div>
+    <div id="bird"></div>
+    <div id="ground"></div>
+    <div id="hud">
+      <div id="score">0</div>
+      <div id="best">Best: 0</div>
+      <button id="restartBtn">Restart</button>
     </div>
-    <script src="game.js"></script>
+  </div>
+  <script src="game.js"></script>
 </body>
 
 </html>
