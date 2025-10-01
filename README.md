@@ -1,7 +1,7 @@
 # Flappy Bird
 
 A simple Flappy Bird clone built with plain HTML, CSS, and JavaScript. Pipes and the bird are regular DOM elements animated via `requestAnimationFrame`.
-flappy bird demo.gif
+![me]flappy bird demo.gif
 ## How to Run
 - Open `index.html` in your browser (no build step required).
 - Best tested in a modern Chromium, Firefox, or Edge browser.
@@ -30,4 +30,5 @@ Bird sprite sourced from the open flappy-bird-assets repository:
 - https://raw.githubusercontent.com/samuelcust/flappy-bird-assets/master/sprites/yellowbird-midflap.png
 
 All rights belong to their respective owners; used here for educational/demo purposes.
+
 
